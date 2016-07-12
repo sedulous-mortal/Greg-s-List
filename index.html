@@ -1,0 +1,97 @@
+<DOCTYPE html>
+
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+
+        <!--page title-->
+        <title>Greg's List</title>
+
+        <!-- reset -->
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css">
+
+        <!--Font Awesome-->
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+
+        <!-- styles -->
+        <link rel="stylesheet" type="text/css" href="main.css">
+
+        <!--meta description-->
+        <meta name="description" content="Akin to Craig's List, this is an old-school classified ads site.">
+    </head>
+
+    <body>
+        <nav>
+            <h1>Greg's List</h1>
+
+            <ul>
+                <li><a href="">Post</a></li>
+                <li><a href="">Account</a></li>
+            </ul>
+
+        </nav>
+
+        <!--search bar -->
+        <form id="search">
+            <input placeholder="Search software jobs"></input>
+            <!--the magnifying glass-->
+            <span class="fa fa-search border padded grow" aria-hidden="true"></span>
+        </form>
+
+        <!--previous and next tabs-->
+        <div id="mid_nav">
+            <div class="sifter border"><a>&lt; prev</a></div>
+            <div class="sifter border"><a>1 to 100 of 179</a></div>
+            <div class="sifter border"><a>next &gt;</a></div>
+        </div>
+
+        <!--results-->
+        <div id="results">
+
+            <ul>
+                <li>
+
+                    <div class="icons">
+                        <a><span class="fa fa-star-o fa-2x" aria-hidden="true"></span></a>
+                        <span id="trash" class="fa fa-trash fa-2x" aria-hidden="true"></span>
+                    </div>
+
+                    <result>
+                        <date> June 22 </date><a>Technical Project Manager</a>
+                        <locale> Midtown East </locale>
+                    </result>
+
+                </li>
+
+                <li>
+                    <div class="icons">
+                        <a><span class="fa fa-star-o fa-2x" aria-hidden="true"></span></a>
+                        <span id="trash" class="fa fa-trash fa-2x" aria-hidden="true"></span>
+                    </div>
+                    <result>
+                        <date> June 21 </date><a>Frontend Developer</a>
+                        <locale> SoHo </locale>
+                    </result>
+
+                </li>
+
+                <li>
+                    <div class="icons">
+                        <a><span class="fa fa-star-o fa-2x" aria-hidden="true"></span></a>
+                        <span id="trash" class="fa fa-trash fa-2x" aria-hidden="true"></span>
+                    </div>
+                    <result>
+                        <date> June 20 </date><a>Senior Python Developer / Cofounder</a>
+                        <locale> Flatiron </locale>
+                    </result>
+
+                </li>
+
+            </ul>
+        </div>
+
+    </body>
+
+    </html>
+</doctype>
